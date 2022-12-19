@@ -104,7 +104,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<p class="small-font"> by <i>Sarthak Singh</i><br>Roll NO.-> <i>21238</i><br>Branch -> <i>Electronics and Communication Engineering</i></p>', unsafe_allow_html=True)
+st.markdown('<p class="small-font"> by <i>Sarthak Singh</i></p>', unsafe_allow_html=True)
 
 
 ram = st.selectbox(
