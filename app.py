@@ -190,12 +190,11 @@ if st.button('Recommend'):
     for i in range(0,len(new)):
         if counter!=0:
             col1, mid, col2 = st.columns([50,4,20])
-            with col1:
-                st.write(str(count),')')
-                for j in new[i]:
-                    st.write(j)
-            with col2:
-                st.image(str(images[i]), width = 100)
+           
+            st.write(str(count),')')
+            for j in new[i]:
+                st.write(j)
+            st.image(str(images[i]), width = 100)
             st.write("--------------------------------------------------------------------------")
             count=count+1
             counter-=1
