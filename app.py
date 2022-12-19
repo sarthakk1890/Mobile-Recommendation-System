@@ -189,8 +189,6 @@ if st.button('Recommend'):
     st.write("--------------------------------------------------------------------------")
     for i in range(0,len(new)):
         if counter!=0:
-            col1, mid, col2 = st.columns([50,4,20])
-           
             st.write(str(count),')')
             for j in new[i]:
                 st.write(j)
